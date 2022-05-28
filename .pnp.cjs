@@ -37,6 +37,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.9"],\
             ["@types/react-dom", "npm:18.0.5"],\
             ["@vitejs/plugin-react", "npm:1.3.2"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:572974bfd16fba63746e564b946fcd0d5481e3958a2d86b2339f8f9624fc9f4abd3898c4444c731638d6001d3f88ca414f2c05308d6789925602f170e2d31abc#npm:3.0.0-rc.6"],\
+            ["esbuild", "npm:0.14.41"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:572974bfd16fba63746e564b946fcd0d5481e3958a2d86b2339f8f9624fc9f4abd3898c4444c731638d6001d3f88ca414f2c05308d6789925602f170e2d31abc#npm:18.1.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"],\
@@ -618,6 +620,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rollup/pluginutils", "npm:4.2.1"],\
             ["react-refresh", "npm:0.13.0"],\
             ["resolve", "patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@yarnpkg/esbuild-plugin-pnp", [\
+        ["npm:3.0.0-rc.6", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.6-440457bfad-dec5edd1a0.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
+          "packageDependencies": [\
+            ["@yarnpkg/esbuild-plugin-pnp", "npm:3.0.0-rc.6"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:572974bfd16fba63746e564b946fcd0d5481e3958a2d86b2339f8f9624fc9f4abd3898c4444c731638d6001d3f88ca414f2c05308d6789925602f170e2d31abc#npm:3.0.0-rc.6", {\
+          "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-593dab9154/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.6-440457bfad-dec5edd1a0.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
+          "packageDependencies": [\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:572974bfd16fba63746e564b946fcd0d5481e3958a2d86b2339f8f9624fc9f4abd3898c4444c731638d6001d3f88ca414f2c05308d6789925602f170e2d31abc#npm:3.0.0-rc.6"],\
+            ["@types/esbuild", null],\
+            ["esbuild", "npm:0.14.41"],\
+            ["tslib", "npm:1.14.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/esbuild",\
+            "esbuild"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2139,6 +2164,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.9"],\
             ["@types/react-dom", "npm:18.0.5"],\
             ["@vitejs/plugin-react", "npm:1.3.2"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:572974bfd16fba63746e564b946fcd0d5481e3958a2d86b2339f8f9624fc9f4abd3898c4444c731638d6001d3f88ca414f2c05308d6789925602f170e2d31abc#npm:3.0.0-rc.6"],\
+            ["esbuild", "npm:0.14.41"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:572974bfd16fba63746e564b946fcd0d5481e3958a2d86b2339f8f9624fc9f4abd3898c4444c731638d6001d3f88ca414f2c05308d6789925602f170e2d31abc#npm:18.1.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"],\
@@ -2152,6 +2179,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/to-fast-properties-npm-2.0.0-0dc60cc481-be2de62fe5.zip/node_modules/to-fast-properties/",\
           "packageDependencies": [\
             ["to-fast-properties", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tslib", [\
+        ["npm:1.14.1", {\
+          "packageLocation": "./.yarn/cache/tslib-npm-1.14.1-102499115e-dbe628ef87.zip/node_modules/tslib/",\
+          "packageDependencies": [\
+            ["tslib", "npm:1.14.1"]\
           ],\
           "linkType": "HARD"\
         }]\
